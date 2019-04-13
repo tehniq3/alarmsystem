@@ -57,7 +57,7 @@ if (digitalRead(pindezarmare) == LOW)  // daca s-a apasat butonul de dezarmare
 {
 {
  Serial.println("System in stand-by !");
- digitalWrite(pinstare, LOW);  // sting ledul de indicare armare
+ digitalWrite(pinstare, LOW);  // sting ledul de indicare armare 
  armare = 0;  // starea de alarma va deveni inactiva 
  miscare = 0;  // se considera ca nu mai e miscare
  digitalWrite(pingoarna, HIGH); // claxonul v-a suna scurt, de 2 ori, pentru a sti ca s-a dezactivat alarma
@@ -73,6 +73,7 @@ if ((armare == 1) and (miscare == 0))  // daca alarma este activa
 {
   digitalWrite(pinstare, HIGH); // aprind led armare
  if (digitalRead(pinsenzor) == HIGH)  // daca s-a activat senzorul de miscare cat timp alarma e activa
+// if (digitalRead(pinsenzor) == LOW)  // daca s-a activat senzorul de miscare cat timp alarma e activa 
  {
    Serial.println("Movements!");
    miscare = 1;  // s=a detecat miscare
