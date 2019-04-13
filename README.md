@@ -1,5 +1,7 @@
 # alarmsystem
-info; https://nicuflorica.blogspot.com/2019/04/sistem-de-alarma-simplu.html
+info: 
+1) https://arduinotehniq.blogspot.com/2019/04/simple-alarm-system-with-arduino.html
+2)https://nicuflorica.blogspot.com/2019/04/sistem-de-alarma-simplu.html
 
 ![schematic](https://4.bp.blogspot.com/-4zfUd8yJ9hc/XLIHoR9x4pI/AAAAAAAAZHA/BD6hvk7XYb0wT4SttVFbFrz5dCJa9pPogCLcBGAs/s1600/alarma_moto_schema.png)
 
