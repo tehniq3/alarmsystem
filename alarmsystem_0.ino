@@ -41,6 +41,7 @@ void loop()
 {
   
 if (digitalRead(pinarmare) == LOW)  // daca s-a apasat butonul de armare
+//if (digitalRead(pinarmare) == HIGH)  // daca s-a apasat butonul de armare (radio)
 {
  Serial.println("System armed !");
  armare = 1;  // starea de alarma va deveni activa 
@@ -52,6 +53,8 @@ if (digitalRead(pinarmare) == LOW)  // daca s-a apasat butonul de armare
 }
 
 if (digitalRead(pindezarmare) == LOW)  // daca s-a apasat butonul de dezarmare
+//if (digitalRead(pindezarmare) == HIGH)  // daca s-a apasat butonul de dezarmare (radio)
+{
 {
  Serial.println("System in stand-by !");
  digitalWrite(pinstare, LOW);  // sting ledul de indicare armare
